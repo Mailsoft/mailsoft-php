@@ -1,0 +1,26 @@
+{
+  "name": "mailsoft/mailsoft-php",
+  "description": "A PHP-SDK for the Mailsoft API",
+  "keywords": [
+    "mailsoft"
+  ],
+  "type": "package",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2",
+    "phpunit/phpunit": "6.5.x-dev"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wes Mahler",
+      "email": "wes@mailsoft.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mailsoft\\": "Mailsoft/"
+    }
+  },
+  "version": "0.0.1",
+  "minimum-stability": "dev"
+}

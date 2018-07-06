@@ -22,11 +22,7 @@ require_once('vendor/autoload.php');
 
 ## Manual Installation
 
-If you do not wish to use Composer, you can download the [latest release](https://github.com/mailsoft/mailsoft-php/releases). Then, to use this package, include the `init.php` file.
-
-```php
-require_once('/path/to/stripe-php/init.php');
-```
+If you do not wish to use Composer, you can download the [latest release](https://github.com/mailsoft/mailsoft-php/releases).
 
 ## Dependencies
 

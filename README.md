@@ -62,7 +62,6 @@ $response = $MailsoftClient->request('PUT', '/people/1', ['subscribed' => false]
 
 //Retrieve a person
 $response = $MailsoftClient->request('GET', '/people/1');
-$response = $MailsoftClient->request('GET', '/people/1');
 ```
 
 ## Documentation

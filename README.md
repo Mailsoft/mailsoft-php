@@ -56,10 +56,10 @@ $response = $MailsoftClient->request('GET', '/people');
 print_r($response);
 
 //Create a person
-$response = $MailsoftClient->request('POST', '/people', ['email' => 'old@mailsoft.io']);
+$response = $MailsoftClient->request('POST', '/people', ['email' => 'example@mailsoft.io']);
 
-//Update a person
-$response = $MailsoftClient->request('PUT', '/people/1', ['email' => 'new@mailsoft.io']);
+//Update a person (unsubscribes a user)
+$response = $MailsoftClient->request('PUT', '/people/1', ['subscribed' => false]);
 
 //Retrieve a person
 $response = $MailsoftClient->request('GET', '/people/1');

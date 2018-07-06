@@ -4,7 +4,7 @@ use Mailsoft\MailsoftClient;
 
 include "vendor/autoload.php";
 
-$secret_key = 'sk_ptGhytbDF6sJosMiFFpeIvEQjFNH9uFL';
+$secret_key = 'YOUR_MAILSOFT_ACCOUNT_SECRET_KEY';
 
 $MailsoftClient = new MailsoftClient();
 $MailsoftClient->setSecretKey($secret_key);

@@ -38,7 +38,6 @@ If you use Composer, these dependencies should be handled automatically. If you 
 Simple usage looks like:
 
 ```php
-
 <?php
 
 use Mailsoft\MailsoftClient;
@@ -56,12 +55,13 @@ $response = $MailsoftClient->request('GET', '/people');
 print_r($response);
 
 //Create a person
-$response = $MailsoftClient->request('POST', '/people', ['email' => 'example@mailsoft.io']);
+$response = $MailsoftClient->request('POST', '/people', ['email' => 'old@mailsoft.io']);
 
-//Update a person (unsubscribes a user)
+//Update a person (unsubscribes a person)
 $response = $MailsoftClient->request('PUT', '/people/1', ['subscribed' => false]);
 
 //Retrieve a person
+$response = $MailsoftClient->request('GET', '/people/1');
 $response = $MailsoftClient->request('GET', '/people/1');
 ```
 

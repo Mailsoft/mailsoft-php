@@ -28,7 +28,7 @@ If you do not wish to use Composer, you can download the [latest release](https:
 
 The bindings require the following extensions in order to work properly:
 
-- [`guzzle`]
+- [`guzzle`](https://github.com/guzzle/guzzle)
 - [`json`](https://secure.php.net/manual/en/book.json.php)
 
 If you use Composer, these dependencies should be handled automatically. If you install manually, you'll want to make sure that these extensions are available.
